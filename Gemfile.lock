@@ -15,6 +15,7 @@ GEM
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     arel (9.0.0)
+    bigdecimal (1.4.4)
     bond (0.5.1)
     capybara (3.29.0)
       addressable
@@ -106,6 +107,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord (= 5.2.3)
+  bigdecimal (~> 1.4)
   capybara
   database_cleaner
   pry
@@ -122,4 +124,4 @@ DEPENDENCIES
   tux
 
 BUNDLED WITH
-   2.0.2
+   2.1.4
