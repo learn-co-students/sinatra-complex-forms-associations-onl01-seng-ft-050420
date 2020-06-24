@@ -24,8 +24,6 @@ end
 
   get '/owners/:id/edit' do
     @owner = Owner.find(params[:id])
-    @pets = @owner.pets
-
     erb :'/owners/edit'
   end
 
@@ -55,5 +53,5 @@ end
    end
     redirect "owners/#{@owner.id}"
    end
-  
+
 end
